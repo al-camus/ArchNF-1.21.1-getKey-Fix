@@ -1,0 +1,16 @@
+modLoader     = "lowcodefml"
+loaderVersion = "[1,)"
+license       = "MIT"
+
+[[mods]]
+modId       = "getkeyhotfix"
+version     = "1.0.0"
+displayName = "Architectury 1.21.1 getKey() Hotfix"
+description = '''
+Applies IKeyProvider<T> to both Architectury and NeoForge holders
+so they share the same abstract getKey(), removing the default‐method clash.
+'''
+authors     = "M_D_Luffy aka alcamus"
+
+[[mixins]]
+config = "mixins.getkeyhotfix.json"
